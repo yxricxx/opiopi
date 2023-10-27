@@ -10,8 +10,9 @@ int main() {
 	x = a;
 	while (x <= b + h / 2)
 	{
-		y = pow(x, 5) + 3 * tan(pow(x, 2)) + 2;
-		cout << '|' << setw(6) << x << "\t|\t" << setw(10) << y << '|' << endl;
+		y = pow(x, 3) + 3 * tan(pow(x, 2)) + 2;
+		cout << '|' << setw(3) << x << "\t|\t" << setw(5) << y << '|' << endl;
 		x = x + h;
+		return 0;
 	}
 }
